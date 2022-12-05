@@ -32,4 +32,10 @@ public class EmployeeController {
     public String edit(){
         return "Welcome to edit employee";
     }
+
+
+    @GetMapping("/delete")
+    public String delete(){
+        return "Delete employee here";
+    }
 }
