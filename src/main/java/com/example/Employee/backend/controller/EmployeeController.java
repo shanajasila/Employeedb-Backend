@@ -22,4 +22,9 @@ public class EmployeeController {
         return "Search employee page";
     }
 
+    @GetMapping("/view")
+    public  String view(){
+        return "Wlcome to view page";
+    }
+
 }
