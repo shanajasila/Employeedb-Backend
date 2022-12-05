@@ -13,8 +13,13 @@ public class EmployeeController {
     }
 
     @GetMapping("/add")
-    public String addemmp(){
+    public String addemp(){
         return "Add employee";
+    }
+
+    @GetMapping("/search")
+    public String search(){
+        return "Search employee page";
     }
 
 }
